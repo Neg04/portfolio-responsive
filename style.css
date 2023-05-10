@@ -1,0 +1,185 @@
+:root {
+    --first-font: 'Castoro', serif;
+    --second-font: 'Montserrat', sans-serif;
+    --third-font: 'Ysabeau', sans-serif;
+
+}
+
+body {
+    background: radial-gradient(circle at 10% 20%, rgba(216, 241, 230, 0.46) 0.1%, rgba(233, 226, 226, 0.28) 90.1%);
+    text-align: center;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 60px;
+    font-family: var(--third-font);
+}
+
+h4 {
+    font-family: var(--second-font);
+    font-weight: bolder;
+}
+
+h5 {
+    font-family: var(--second-font);
+    font-weight: bold;
+}
+
+form {
+    text-align: left;
+    border: 1px solid rgb(182, 193, 228);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.body-container {
+    border: 2px solid rgb(6, 4, 24);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.greeting {
+    font-family: var(--second-font);
+}
+
+.sample {
+    font-family: var(--second-font);
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+
+
+.weather-wrapper {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.weather-heading {
+    font-family: var(--third-font);
+    font-size: 50px;
+}
+
+.weather-paragraph {
+    font-family: var(--first-font);
+}
+
+.translation-wrapper {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 90px;
+}
+
+.translation-heading {
+    font-family: var(--third-font);
+    font-size: 50px;
+}
+
+.translation-paragraph {
+    font-family: var(--first-font);
+}
+
+.second-img {
+    margin-top: 50px;
+}
+
+.workpage-wrapper {
+    margin: 40px;
+    padding: 15px 40px;
+    border: 1px hidden;
+    border-radius: 10px;
+    background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.work-box {
+    font-family: var(--third-font);
+    font-size: 35px;
+}
+
+.worktogether {
+    font-family: var(--first-font);
+    font-size: 15px;
+}
+
+.btn-outline-secondary:hover {
+    text-decoration: none;
+    color: #fdfbfb;
+}
+
+.about-paragraph {
+    font-family: var(--first-font);
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 130px;
+}
+
+.about-img {
+    margin-top: 30px;
+
+}
+
+.contact-text {
+    font-family: var(--second-font);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.contact-paragraph {
+    font-family: var(--first-font);
+}
+
+.contact-col {
+    margin-top: 150px;
+    margin-bottom: 100px;
+    text-align: left;
+}
+
+.social-contact {
+    margin-top: 50px;
+}
+
+.email-input {
+    padding: 3px 50px;
+    text-align: left;
+    border: 2px solid rgb(182, 193, 228);
+}
+
+.message-input {
+    padding: 10px 100px;
+    text-align: left;
+    border: 2px solid rgb(182, 193, 228);
+}
+
+@media (max-width:1200px) {
+    .translation-wrapper {
+        margin-top: 50px;
+    }
+
+    .weather-wrapper {
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+
+    .about-paragraph {
+        margin-top: 30px;
+    }
+
+    .about-img {
+        margin-top: 20px;
+    }
+
+    .about-paragraph {
+        margin-top: 50px;
+    }
+
+    .social-contact {
+        margin-top: 60px;
+    }
+}

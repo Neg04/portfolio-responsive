@@ -43,6 +43,19 @@ form {
     font-family: var(--second-font);
 }
 
+.greeting-two {
+    font-family: var(--second-font);
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
+.sample-home {
+    font-family: var(--second-font);
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .sample {
     font-family: var(--second-font);
     margin-bottom: 40px;

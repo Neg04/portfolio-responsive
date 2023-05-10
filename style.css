@@ -106,11 +106,6 @@ form {
     font-size: 15px;
 }
 
-.btn-outline-secondary:hover {
-    text-decoration: none;
-    color: #fdfbfb;
-}
-
 .about-paragraph {
     font-family: var(--first-font);
     font-size: 20px;
@@ -155,6 +150,9 @@ form {
     padding: 10px 100px;
     text-align: left;
     border: 2px solid rgb(182, 193, 228);
+}
+.emoji {
+    font-size: 25px;
 }
 
 @media (max-width:1200px) {
